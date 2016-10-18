@@ -1,0 +1,204 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: ghostwhite;
+    margin: 0;
+    font-family: Arial, Sans-Serif, serif;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: lightgray;
+}
+
+p {
+    padding: 0 0 0 0;
+    display: block;
+    font-weight: bold;
+}
+
+a:visited {
+    color: ghostwhite !important;
+}
+
+a {
+    color: ghostwhite !important;
+}
+
+input {
+    border: 0;
+    color: whitesmoke;
+    height: 40px;
+    font-size: 16px;
+    width: 300px;
+    background-color: #ff842b;
+}
+
+noscript {
+    color: red;
+}
+
+#myheader {
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(13, 26, 98);
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+#myheader h1 {
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#myheader p {
+    float: right;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#myheader a {
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#mytable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.reservation td {
+    width: 30%;
+}
+
+#myrow {
+    display: table-row;
+}
+
+#mynavbar {
+    display: table-cell;
+    text-align: center;
+    color: ghostwhite;
+    background-color: #ff842b;
+    width: 15%;
+    padding-top: 20px;
+}
+
+#mynavbar ul {
+    text-align: center;
+    padding: 0;
+}
+
+#mynavbar li {
+    list-style-type: none;
+    padding: 20px 0 0 0;
+    margin-top: 5px;
+}
+
+#mynavbar li a, #mynavbar li a:visited {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#mymain {
+    color: #1C1C1C;
+    display: table-cell;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 85%;
+}
+
+#mymain a {
+    color: orangered !important;
+}
+
+#mymain a:visited {
+    color: orangered !important;
+}
+
+.deletebtn {
+    height: auto;
+    width: 50%;
+    margin-left: 8%;
+}
+
+.deleteform {
+    margin-left: 38%;
+}
+
+.myform {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgray;
+    padding: 15px 30px 20px 30px;
+}
+
+.myform label {
+    display: block;
+    margin: 0 0 4px;
+}
+
+.myform label input[type="submit"] {
+    margin-top: 10px;
+}
+
+.myform label > span {
+    float: left;
+    width: 10%;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.myform input[type="text"], input[type="password"], .myform select {
+
+    border: 3px solid transparent;
+    color: white !important;
+    height: 25px;
+
+    margin: 6px 100px 10px 0;
+    outline: 0 none;
+    padding: 5px 5px 5px 5px;
+    width: 60%;
+}
+
+.notok {
+    border: 3px solid red !important;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
